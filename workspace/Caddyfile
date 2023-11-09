@@ -1,0 +1,11 @@
+{
+    debug
+}
+
+test.localhost.localdomain:8443
+{
+    tls internal
+    bind 0.0.0.0
+
+    respond "Hello, World"
+}
